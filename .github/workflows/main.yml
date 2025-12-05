@@ -99,7 +99,6 @@ jobs:
 
           Write-Host "RDP port is open!"
           - name: Maintain Connection
-        run: |
           Write-Host "n=== RDP ACCESS DETAILS ==="
           Write-Host "Address:  $env:TAILSCALE_IP"
           Write-Host "Username: $env:RDP_USER"
